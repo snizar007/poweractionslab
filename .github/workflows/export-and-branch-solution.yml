@@ -29,6 +29,9 @@ env:
   CLIENT_ID: 'ac37bf25-bb19-4b56-9663-8beab8278137'
   TENANT_ID: 'c9f44141-61a3-483a-b157-783e86287e36'
 
+permissions:
+  contents: write
+  
 jobs:
   export-from-dev:
     runs-on: windows-latest
